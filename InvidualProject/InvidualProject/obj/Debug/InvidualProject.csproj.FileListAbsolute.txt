@@ -1,0 +1,14 @@
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\bin\Debug\InvidualProject.exe.config
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\bin\Debug\InvidualProject.exe
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\bin\Debug\InvidualProject.pdb
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.csprojAssemblyReference.cache
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.frm_DangNhap.resources
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.frm_QuanLyNhanVien.resources
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.exe
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.pdb
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\bin\Debug\Account.mdf
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\bin\Debug\Account_log.ldf
+C:\Users\ADMIN\source\repos\InvidualProject\InvidualProject\obj\Debug\InvidualProject.frm_NhanVien.resources
