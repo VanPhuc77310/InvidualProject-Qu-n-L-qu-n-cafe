@@ -87,7 +87,7 @@
             this.dt_NhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.dt_NhanVien.Name = "dt_NhanVien";
             this.dt_NhanVien.RowTemplate.Height = 28;
-            this.dt_NhanVien.Size = new System.Drawing.Size(713, 146);
+            this.dt_NhanVien.Size = new System.Drawing.Size(749, 146);
             this.dt_NhanVien.TabIndex = 46;
             this.dt_NhanVien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dt_NhanVien_CellClick);
             // 

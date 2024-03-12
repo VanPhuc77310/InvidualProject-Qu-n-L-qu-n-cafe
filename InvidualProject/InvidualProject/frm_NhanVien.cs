@@ -57,5 +57,14 @@ namespace InvidualProject
             }
             Lib_DsKhachOrder.Items.Clear();
         }
+
+        private void btn_Dangxuat_Click(object sender, EventArgs e)
+        {
+            DialogResult dt = MessageBox.Show("Bạn có muốn thoát hay không ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (dt == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

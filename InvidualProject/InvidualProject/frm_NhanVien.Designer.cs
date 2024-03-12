@@ -37,6 +37,7 @@
             this.btn_4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btn_Dangxuat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -141,11 +142,24 @@
             this.label5.TabIndex = 17;
             this.label5.Text = "Danh sách khách order";
             // 
+            // btn_Dangxuat
+            // 
+            this.btn_Dangxuat.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Dangxuat.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.btn_Dangxuat.Location = new System.Drawing.Point(600, 471);
+            this.btn_Dangxuat.Name = "btn_Dangxuat";
+            this.btn_Dangxuat.Size = new System.Drawing.Size(116, 32);
+            this.btn_Dangxuat.TabIndex = 18;
+            this.btn_Dangxuat.Text = "Đăng xuất";
+            this.btn_Dangxuat.UseVisualStyleBackColor = true;
+            this.btn_Dangxuat.Click += new System.EventHandler(this.btn_Dangxuat_Click);
+            // 
             // frm_NhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 639);
+            this.ClientSize = new System.Drawing.Size(800, 539);
+            this.Controls.Add(this.btn_Dangxuat);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_4);
@@ -173,5 +187,6 @@
         private System.Windows.Forms.Button btn_4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btn_Dangxuat;
     }
 }

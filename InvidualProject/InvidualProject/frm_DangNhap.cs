@@ -23,13 +23,22 @@ namespace InvidualProject
         {
             string sql = "Select COUNT (*) from ManagerAccount where UsernameManager ='" + txt_TaiKhoan.Text + "' and PasswordManager = '" + txt_MatKhau.Text + "'";
             int kq = (int)lopchung.LayGT(sql);
+            string sql1 = "Select COUNT (*) from StaffAccount where UsernameStaff ='" + txt_TaiKhoan.Text + "' and PasswordStaff = '" + txt_MatKhau.Text + "'";
+            int kq1 = (int)lopchung.LayGT(sql1);
             if (kq >= 1)
             {
-                MessageBox.Show("Đăng nhập thành công");
+                MessageBox.Show("Đăng nhập với tư cách người quản lý thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 frm_QuanLyNhanVien ql = new frm_QuanLyNhanVien();
                 ql.Show();
             }
+            else if (kq1 >= 1)
+            {
+                MessageBox.Show("Đăng nhập với vai trò nhân viên thành công","Thông báo", MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
+                frm_NhanVien nv = new frm_NhanVien();
+                nv.Show();
+            }
             else MessageBox.Show("Sai tên hoặc mật khẩu, đăng nhập thất bại");
+
         }
 
         private void ck_HienThiMatKhau_CheckedChanged(object sender, EventArgs e)
@@ -39,25 +48,12 @@ namespace InvidualProject
             else txt_MatKhau.UseSystemPasswordChar = true;
         }
 
-        private void btn_nvDangNhap_Click(object sender, EventArgs e)
-        {
-            string sql1 = "Select COUNT (*) from StaffAccount where UsernameStaff ='" + txt_TaiKhoan.Text + "' and PasswordStaff = '" + txt_MatKhau.Text + "'";
-            int kq1 = (int)lopchung.LayGT(sql1);
-            if (kq1 >= 1)
-            {
-                MessageBox.Show("Đăng nhập thành công");
-                frm_NhanVien nv = new frm_NhanVien();
-                nv.Show();
-            }
-            else MessageBox.Show("Sai tên hoặc mật khẩu, đăng nhập thất bại");
-        }
-
         private void btn_Thoat_Click(object sender, EventArgs e)
         {
             DialogResult dt = MessageBox.Show("Bạn có muốn thoát hay không ?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (dt == DialogResult.Yes)
             {
-                Application.Exit();
+               Application.Exit();
             }
         }
     }
